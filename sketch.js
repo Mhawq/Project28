@@ -89,7 +89,7 @@ function draw() {
 }
 
 function mouseDragged(){
-	Matter.Body.setPosition(stone.body,{x: mouseX, y: mouseY});
+	Matter.Body.setPosition(stone.Body,{x: mouseX, y: mouseY});
 }
 
 function mouseReleased(){
