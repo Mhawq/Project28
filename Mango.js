@@ -9,7 +9,7 @@ class Mango{
         this.body =bodies.rectangle(x,y,width,height,options)
         this.width = width
         this.height = height
-        this.image = loadImage("Plucking mangoes/mango.png")
+        this.image = loadImage("mango.png")
         World.add(wprld,this.body)
     }
     display(){
